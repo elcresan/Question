@@ -53,7 +53,8 @@ public class Scores extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
-
+		int u;
+		u = 2;
 		setContentView(R.layout.activity_scores);
 
 		TabHost host = (TabHost) findViewById(R.id.tabhost);
