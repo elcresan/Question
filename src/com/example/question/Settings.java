@@ -39,6 +39,8 @@ public class Settings extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		int i = 0;
+		i = i+1;
 
 		setContentView(R.layout.activity_settings);
 
